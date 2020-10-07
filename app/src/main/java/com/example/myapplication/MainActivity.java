@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                                         Intent intent = new Intent(MainActivity.this, HomeActivity.class);
                                         intent.putExtra("userid",userid);
                                         startActivity(intent);
-                                        if (role.equalsIgnoreCase("2"))
+                                        if (role.equalsIgnoreCase("1"))
                                             intent = new Intent(MainActivity.this, WhereAdmin.class);
                                         startActivity(intent);
                                         Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT).show();
